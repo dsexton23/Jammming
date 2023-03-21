@@ -2,6 +2,14 @@
 This project is a playlist creater app connected to spotify API. it allows you to search any song artist or album and add them to a custom playlist. these playlists can be renamed and saved to be stored for later use. 
 
 
+future potential add on features:
+*Include preview samples for each track
+*Only display songs not currently present in the playlist in the search results
+*Add a loading screen while playlist is saving
+*Update the access token logic to expire at exactly the right time, instead of setting expiration from when the user initiates their next search
+*After user redirect on login, restoring the search term from before the redirect
+*Ensure playlist information doesn’t get cleared if a user has to refresh their access token
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
